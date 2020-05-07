@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\</FILEPATH>
+      <FILENAME>tree_node.h</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "Tree_Node&lt;int&gt;::KeyField" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>Tree_Node&lt;int&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Tree_Node@H@@QAE@XZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Tree_Node&lt;int&gt;::KeyField</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\</FILEPATH>
+      <FILENAME>tree_node.h</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "Tree_Node&lt;float&gt;::KeyField" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>Tree_Node&lt;float&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Tree_Node@M@@QAE@XZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Tree_Node&lt;float&gt;::KeyField</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
