@@ -1,13 +1,15 @@
 #include "stringrandom.h"
 
-Str_Array* RandArr;
+Str_Array RandArr[BASE_WORDS];
 bool init_flag; 
 
 void init_arr(Str_Array* init) {
 	if (init_flag == true) return;
-	init = new Str_Array[BASE_WORDS];
 	ifstream input;
-	input.open("pldf-win.txt", ios::binary);
+	ofstream output;
+	input.open("words_base.txt", ios::in);
+	if (input.is_open()) { cout << "Open file\n"; }
+	else cerr << "not found\n";
 	for (int i = 0; i < BASE_WORDS; ++i) {
 		input >> init[i].OurStr;
 	}
