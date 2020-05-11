@@ -7,14 +7,7 @@
 int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	Tree <string> a(20);
-	cout << a.FindKey("выстригающийся") << endl;
-	a.OutputTree(a.Root);
-	a.addElement("блюз", "Проверка");
-	a.addElement("блюз", "Проверка 2");
-	cout << "------------------------------------------------------\n";
-	a.OutputTree(a.Root);
-	a.ClearTree();
-	a.OutputTree(a.Root);
+	Tree <string> TREE;
+
 	return 0;
 }
