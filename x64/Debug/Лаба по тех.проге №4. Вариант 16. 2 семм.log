@@ -1,79 +1,35 @@
 ﻿  main.cpp
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(17,1): error C4596: addElement: недопустимое полное имя в объявлении члена
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(49): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Tree<std::string>"
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(18,1): error C2535: void Tree<int>::addElement(OurKey,OurKey): функция-член уже определена или объявлена
-          with
-          [
-              OurKey=int
-          ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(17): message : см. объявление "Tree<int>::addElement"
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(21,1): error C2535: void Tree<int>::SetKey(int,OurKey): функция-член уже определена или объявлена
-          with
-          [
-              OurKey=int
-          ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(20): message : см. объявление "Tree<int>::SetKey"
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(31,1): error C2535: Tree_Node<OurKey> *Tree<OurKey>::DFS(Tree_Node<OurKey> *,OurKey): функция-член уже определена или объявлена
-          with
-          [
-              OurKey=int
-          ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(30): message : см. объявление "Tree<int>::DFS"
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(124,34): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(129,34): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(134,45): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(139,45): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(143,39): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(148,48): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
   Tree.cpp
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(17,1): error C4596: addElement: недопустимое полное имя в объявлении члена
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(49): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Tree<std::string>"
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(18,1): error C2535: void Tree<int>::addElement(OurKey,OurKey): функция-член уже определена или объявлена
-          with
-          [
-              OurKey=int
-          ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(17): message : см. объявление "Tree<int>::addElement"
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(21,1): error C2535: void Tree<int>::SetKey(int,OurKey): функция-член уже определена или объявлена
-          with
-          [
-              OurKey=int
-          ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(20): message : см. объявление "Tree<int>::SetKey"
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(31,1): error C2535: Tree_Node<OurKey> *Tree<OurKey>::DFS(Tree_Node<OurKey> *,OurKey): функция-член уже определена или объявлена
-          with
-          [
-              OurKey=int
-          ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(30): message : см. объявление "Tree<int>::DFS"
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(124,34): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(129,34): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(134,45): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(139,45): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(143,39): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(148,48): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.cpp(30,1): error C2244: Tree<OurKey>::addElement: не удается сопоставить определение функции существующему объявлению
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.cpp(29): message : см. объявление "Tree<OurKey>::addElement"
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.cpp(30,1): message : определение
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.cpp(30,1): message : 'void Tree<OurKey>::addElement(OurKey,int)'
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.cpp(30,1): message : существующие объявления
-G:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.cpp(30,1): message : 'void Tree<OurKey>::addElement(OurKey,OurKey)'
   Создание кода...
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(318): warning C4715: Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::DFS: значение возвращается не при всех путях выполнения
+  Лаба по тех.проге №4. Вариант 16. 2 семм.vcxproj -> D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\x64\Debug\Лаба по тех.проге №4. Вариант 16. 2 семм.exe
