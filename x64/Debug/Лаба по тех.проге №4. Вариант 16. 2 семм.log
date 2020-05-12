@@ -1,35 +1,36 @@
 ﻿  main.cpp
-D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(133,34): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(134,34): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
-D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(143,45): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(144,45): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
-D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(152,48): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(153,48): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
   Tree.cpp
-D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(133,34): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(134,34): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
-D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(143,45): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(144,45): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
-D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(152,48): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(153,48): warning C4244: =: преобразование "int" в "OurKey", возможна потеря данных
           with
           [
               OurKey=float
           ]
   Создание кода...
-D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(549): warning C4715: Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::DFS: значение возвращается не при всех путях выполнения
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(568): warning C4715: Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::DFSi: значение возвращается не при всех путях выполнения
+D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\Tree.h(551): warning C4715: Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::DFS: значение возвращается не при всех путях выполнения
   Лаба по тех.проге №4. Вариант 16. 2 семм.vcxproj -> D:\MY PROJECTS\Лаба по тех.проге №4. Вариант 16. 2 семм\x64\Debug\Лаба по тех.проге №4. Вариант 16. 2 семм.exe

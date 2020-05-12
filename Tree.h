@@ -1,4 +1,5 @@
 #pragma once
+#pragma comment(linker, "/STACK:500000")
 #include "tree_node.h"
 #include <set>
 #include "stringrandom.h" 
@@ -50,7 +51,7 @@ inline Tree<OurKey>::Tree()
 template<typename OurKey>
 inline Tree<OurKey>::Tree(OurKey Key)
 {
-	Root(Key);
+	Root = new Tree_Node <OurKey>(Key);
 	size = 1;
 }
 
@@ -165,7 +166,7 @@ template<typename OurKey>
 inline void Tree<OurKey>::addIndex(OurKey AddingKey, int index)
 {
 	if (this->IsEmpty()) { cerr << "Tree is empty\n"; return; }
-	DFSPointer = this->DFS(Root, index);
+	DFSPointer = this->DFSi(Root, index);
 	if (DFSPointer == NULL) { cerr << "Adding error: Invalid key\n"; return; }
 	if (DFSPointer->ChildNum == 4) { cerr << "Adding error: ChildNum can't be more than 4\n"; return; }
 	if (DFSPointer->ChildNum == 0 && DFSPointer->Child == NULL) {
@@ -227,7 +228,7 @@ template<typename OurKey>
 inline OurKey Tree<OurKey>::GetKey(int index)
 {
 	if (this->IsEmpty()) { cerr << "Tree is empty\n"; return NULL; }
-	DFSPointer = this->DFS(Root, index);
+	DFSPointer = this->DFSi(Root, index);
 	if (DFSPointer == NULL) { cerr << "GetKey error: Not Found\n"; return NULL; }
 	return DFSPointer->KeyField;
 }
@@ -236,7 +237,7 @@ template<typename OurKey>
 inline void Tree<OurKey>::SetKeyIndex(int index, OurKey ChangedKey)
 {
 	if (this->IsEmpty()) { cerr << "List is empty \n"; return; }
-	DFSPointer = this->DFS(Root, index);
+	DFSPointer = this->DFSi(Root, index);
 	if (DFSPointer == NULL) { cerr << "SetKey error: Not Found\n"; return; }
 	DFSPointer->KeyField = ChangedKey;
 }
@@ -555,12 +556,12 @@ inline Tree_Node<OurKey>* Tree<OurKey>::DFSi(Tree_Node<OurKey>* DynamicDFSPointe
 	if (this->IsEmpty()) return NULL;
 	if (index == DynamicDFSPointer->index) return DynamicDFSPointer;
 	if (DynamicDFSPointer->Child != NULL) {
-		DFSPointer = DFS(DynamicDFSPointer->Child, index);
+		DFSPointer = DFSi(DynamicDFSPointer->Child, index);
 		if (DFSPointer != NULL) return DFSPointer;
 
 	}
 	if (DynamicDFSPointer->Sibling != NULL) {
-		DFSPointer = DFS(DynamicDFSPointer->Sibling, index);
+		DFSPointer = DFSi(DynamicDFSPointer->Sibling, index);
 		return DFSPointer;
 	}
 	if (DynamicDFSPointer->Child == NULL || DynamicDFSPointer->Sibling == NULL) return NULL;

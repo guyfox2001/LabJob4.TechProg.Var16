@@ -30,7 +30,6 @@ inline Tree_Node<OurKey>::Tree_Node()
 template<typename OurKey>
 inline Tree_Node<OurKey>::Tree_Node(OurKey Key)
 {
-	this = new Tree_Node<OurKey>;
 	KeyField = Key;
 	index = 0;
 	ChildNum = 0;
